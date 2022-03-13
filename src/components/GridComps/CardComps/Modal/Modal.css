@@ -1,0 +1,64 @@
+.modalBg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(58, 58, 58, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContainer {
+  margin: 5rem;
+  max-width: 500px;
+  border-radius: 12px;
+  background-color: var(--card-body);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--card-title); 
+  margin-bottom: .1rem; 
+}
+
+.photo{
+  width: 100%;
+  height: auto;
+}
+
+
+.modal-btn{
+  background-color: transparent;
+  border: 0;
+  width: 25px;
+  font-size: 1.2rem;
+  align-self: flex-end;
+}
+
+.modal-info{
+  width: 100%;
+  display: flex;
+  border-radius: 1rem;
+  align-items: flex-start;
+  color: var(--appbar-title);  
+  flex-direction: column;
+  font-size: .9rem;
+}
+
+.album-title{
+  margin: 0;
+  padding: 0;
+}
+
+.album-id{
+  margin: 0;
+  padding: 0;
+}
