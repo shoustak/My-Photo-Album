@@ -44,7 +44,7 @@ const MainGrid = () => {
             </div>}
 
             {/*if the user in filtering mode and also didnt found any photos*/}
-            {filterMode && currentPhotos.length === 0 && <div className="loader"> <NoResults /> </div>}
+            {filterMode && currentPhotos.length === 0 && !loading && <div className="loader"> <NoResults /> </div>}
         </>
     )
 }
